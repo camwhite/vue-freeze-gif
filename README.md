@@ -2,7 +2,7 @@
 
 *Vue component to play / pause gifs*
 
-![demo](https://media.giphy.com/media/63LYbsanQDMnzVjlva/giphy.gif)
+![demo](https://media.giphy.com/media/7OX3GLk3KAtZ0BPqif/giphy.gif)
 
 ### Installation
 
@@ -49,3 +49,21 @@ li {
 }
 </style>
 ```
+
+### Contributing
+
+clone and install
+
+`git clone https://github.com/camwhite/vue-freeze-gif.git && cd $_ && yarn install`
+
+edit the source component
+
+`vi src/components/Freeze.vue`
+
+running the dev server to try it out
+
+`yarn run serve`
+
+building the library
+
+`yarn run build:bundle`
